@@ -53,7 +53,7 @@
         }
       ],
       "config": {
-        "name": "primary_assistant",
+        "name": "docker_primary_assistant",
         "llm_config": {
           "config_list": [
             {
@@ -248,7 +248,7 @@
       }
     },
     {
-      "name": "General Agent Workflow",
+      "name": "Containerized Workflow",
       "description": "This workflow is used for general purpose tasks.",
       "sender": {
         "type": "userproxy",
